@@ -54,6 +54,11 @@ html {
 	text-decoration: NONE;
 }
 
+#base:hover {
+    background-color: #004D4D;
+    color: 004D4D;
+}
+
 #about h3{
 	font-family: PT serif;
 	font-weight: 600;
