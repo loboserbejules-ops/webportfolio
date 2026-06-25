@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: "PT Serif", serif !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navbar {
+	background: #EEBE98;
+}
+
+#intro	{
+	color: #004D4D;
+}
+
+.nav-link {
+	color: #004D4D;
+}
+
+#title{
+	font-family: PT serif;
+	font-weight: 700;
+	font-size: clamp(2.5rem, 7vw, 4.25rem);
+	line-height: 1.2;
+	letter-spacing: 0px;
+	color: #004D4D;
+}
+
+#base{
+	font-family: PT serif;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0px;
+	text-align: left;
+	color: #004D4D;
+
+	background: #EEBE98;
+
+
+	border-radius: 2px;
+	padding-top: 8px;
+	padding-right: 24px;
+	padding-bottom: 8px;
+	padding-left: 24px;
+
+	text-decoration: NONE;
+}
+
+#about h3{
+	font-family: PT serif;
+	font-weight: 600;
+	font-style: SemiBold;
+	font-size: 40px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	color: #004D4D;
+}
+
+#about h4{
+	font-family: PT serif;
+	font-weight: 400;
+	font-style: SemiBold;
+	font-size: 26px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	color: #004D4D;
+}
+
+#about p {
+	font-family: PT serif;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0%;
+	color: #004D4D;
+}
+
+.about-img {
+  width: 100%;
+  max-width: 3350px; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#project-title{
+	font-family: PT serif;
+	font-weight: 700;
+	font-size: clamp(2.5rem, 7vw, 4.25rem);
+	line-height: 1.2;
+	letter-spacing: 0px;
+	color: #004D4D;
+}
+
+.project-card {
+    transition: transform .3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+#cards h5{
+	font-family: PT serif;
+	font-weight: 600;
+	font-style: SemiBold;
+	font-size: 40px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	color: #004D4D;
+}
+
+#cards p{
+	font-family: PT serif;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0%;
+	color: #004D4D;
+}
+
+#container {
+	background: #EEBE98;
+	padding: 10px;
+}
+
+.tools-title{
+	font-family: PT serif;
+	font-weight: 700;
+	font-size: clamp(2.5rem, 7vw, 4.25rem);
+	line-height: 1.2;
+	letter-spacing: 0px;
+	color: #004D4D;
+}
+
+#contacts {
+	background: #EEBE98;
+	border-radius: 30px;
+}
+
+@media (max-width: 576px) {
+
+    .contact-title {
+        font-size: 16px;
+        padding: 15px 20px;
+    }
+
+    #title {
+        font-size: 42px;
+    }
+
+    .contact-icon {
+        width: 24px;
+    }
+}
+
+.info {
+	color: #004D4D;
+}
+
+.contact-icon {
+    width: 32px;
+    height: auto;
+}
+
+.contact-title {
+    background-color: #004D4D;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.submit-btn {
+    background-color: #004D4D;
+    color: white;
+    border: none;
+}
+
+.submit-btn:hover {
+    background-color: #007A7A;
+    color: white;
+}
+
+footer {
+	background: #EEBE98;
+	color: white;
+	font-family: PT serif;
+	font-weight: 500;
+	font-style: Medium;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: center;
+}
+
+body {
+    padding-bottom: 80px;
+}
